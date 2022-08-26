@@ -22,8 +22,8 @@
     <div id="menu">
         <ul>
         <li><a href="/" class="menu_active">Strona główna</a></li>
-        <li><a href="/dashboard">Notes wycieczek</a></li>
-        <li><a href="/contact">Kontakt</a></li>
+        <li><a href="/user/login">Notes wycieczek</a></li>
+        <li><a href="/user/register">Rejestracja</a></li>
         </ul>
     </div>
     <div id="header">
