@@ -18,6 +18,8 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import javax.persistence.EntityManagerFactory;
 import javax.validation.Validator;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 @Configuration
@@ -66,5 +68,6 @@ public class AppConfig implements WebMvcConfigurer {
     public Validator validator() {
         return new LocalValidatorFactoryBean();
     }
+
 }
 

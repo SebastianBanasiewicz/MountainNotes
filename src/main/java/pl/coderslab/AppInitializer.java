@@ -28,5 +28,7 @@ public class AppInitializer implements WebApplicationInitializer {
         fr.setInitParameter("forceEncoding", "true");
         fr.addMappingForUrlPatterns(null, true, "/*");
     }
+
+
 }
 

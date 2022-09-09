@@ -14,6 +14,10 @@
 	font-size: 16px;
 }
 
+error-class {
+	color: #17202a;
+}
+
 body {
 	font-family: Arial;
 	font-size: 13px;
@@ -222,6 +226,10 @@ h2 {
 .border-dashed{
 	border: .5px dashed  var(--lighter-background-color);
 	background: var(--light-link-color);
+}
+
+.error-class {
+	color: black;
 }
 
 /*------------------------------*/
