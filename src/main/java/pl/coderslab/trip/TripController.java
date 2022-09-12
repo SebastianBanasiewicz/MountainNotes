@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.ServletRequestBindingException;
 import org.springframework.web.bind.annotation.*;
+import pl.coderslab.user.User;
 import pl.coderslab.user.UserRepository;
 
 import javax.validation.Valid;
@@ -28,7 +29,7 @@ public class TripController {
     }
 
     @GetMapping("/add")
-    public String add(Model model) {
+    public String add(Model model, Long id) {
         model.addAttribute("trip", new Trip());
         return "trip/add";
     }
@@ -39,7 +40,8 @@ public class TripController {
     }
 
     @PostMapping("/add")
-    public String create(@ModelAttribute("trip") @Valid Trip trip, BindingResult result) {
+    public String create(@ModelAttribute("trip") @Valid Trip trip,
+                         @ModelAttribute("user") User user, BindingResult result) {
         if (result.hasErrors()) {
             return "trip/add";
         }
