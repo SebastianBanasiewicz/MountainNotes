@@ -1,8 +1,8 @@
 # Mountain Trips Notebook.
 
-An application for keeping the user's saved mountain trips, trip description, details.
-The purpose of the application is to keep the user's mountain trips, or a group of people, in one place. 
-Once registered, the user can add trip entry, edit and delete.
+An application for keeping the user's saved mountain trips, trip description, details.<br>
+The purpose of the application is to keep the user's mountain trips, or a group of people, in one place.<br> 
+Once registered, the user can add trip entry, edit and delete.<br>
 Also we have options for planning trips and the ability to mark your participation in a particular trip.
 
 # Features
