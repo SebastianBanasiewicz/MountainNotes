@@ -1,11 +1,9 @@
-# MountainNotes
+# Mountain Trips Notebook.
 
-Notes wycieczek górskich.
-
-Aplikacja do trzymania zapisanych wycieczek górskich użytkownika, wymianą opini, opisem wyjazdu, szczegółów cenowych itd.
-Celem aplikacji jest utrzymanie w jednym miejscu wyjazdów/wycieczek górskich użytkownika, bądź grupy osób. 
-Użytkownik po zarejestrowaniu może dodawać wpis wycieczki, edytować i usuwać.
-Również mamy opcje planowania wyjazdów i możliwość zaznaczenia swojego udziału w danej wycieczce.
+An application for keeping the user's saved mountain trips, trip description, details.
+The purpose of the application is to keep the user's mountain trips, or a group of people, in one place. 
+Once registered, the user can add trip entry, edit and delete.
+Also we have options for planning trips and the ability to mark your participation in a particular trip.
 
 # Features
 * Responsive Web Design (RWD) modes:
@@ -16,17 +14,19 @@ Również mamy opcje planowania wyjazdów i możliwość zaznaczenia swojego udz
   * sign in
   * sign up
   * sign out
-* Stepper form (shows progress through numbered steps) containing i.a.:
-  * customized checkboxes and selects
-  * selecting toggle buttons
-  * date and time pickers
+* A method that allows you to mark your participation in a planned excursion.
+* Creating new entries
+  * adding
+  * editing
+  * deleting
+
 # Information
-* The app is a result of the 'Portfolio Lab' workshop as the part of the Coders Lab course.
-* This project was made as a **mapping of an existing UX project**
-* Back-end was created with Spring
+* Back-end was created with Spring.
+* Front-end was created with Bootstrap 5.
 * For more details see the 'Technologies' section.
 # Technologies
-* Spring Boot
+* Spring
 * Spring Form
 * Hibernate
 * Spring Data JPA
+* JSP
