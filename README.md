@@ -30,3 +30,4 @@ Also we have options for planning trips and the ability to mark your participati
 * Hibernate
 * Spring Data JPA
 * JSP
+* Bootstrap 5
